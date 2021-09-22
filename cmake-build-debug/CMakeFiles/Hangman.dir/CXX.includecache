@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Letter.cpp
+Letter.h
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Letter.h
+fstream
+-
+iostream
+-
+
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Letter.h
+string
+-
+LetterNode.h
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/LetterNode.h
+
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/LetterNode.cpp
+LetterNode.h
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/LetterNode.h
+
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/LetterNode.h
+string
+-
+iostream
+-
+
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/main.cpp
+iostream
+-
+Letter.h
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Letter.h
+

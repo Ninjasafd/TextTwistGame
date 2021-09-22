@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TimerTest.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\TimerTest.dir/objects.a @CMakeFiles\TimerTest.dir\objects1.rsp
+C:\msys64\mingw64\bin\clang++.exe  -std=c++17 -Wall -Werror -Wextra -pedantic -pedantic-errors -g   -Wl,--whole-archive CMakeFiles\TimerTest.dir/objects.a -Wl,--no-whole-archive  -o ..\TimerTest.exe -Wl,--out-implib,libTimerTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TimerTest.dir\linklibs.rsp

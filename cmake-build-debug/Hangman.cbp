@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Hangman"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TextTwist">
+				<Option output="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/TextTwist.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0"/>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="C:\msys64\mingw64\lib\clang\11.0.0\include"/>
+					<Add directory="C:/msys64/mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:/msys64/mingw64\include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 TextTwist"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TextTwist/fast">
+				<Option output="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/TextTwist.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0"/>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="C:\msys64\mingw64\lib\clang\11.0.0\include"/>
+					<Add directory="C:/msys64/mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:/msys64/mingw64\include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 TextTwist/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimerTest">
+				<Option output="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/TimerTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0"/>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="C:\msys64\mingw64\lib\clang\11.0.0\include"/>
+					<Add directory="C:/msys64/mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:/msys64/mingw64\include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 TimerTest"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TimerTest/fast">
+				<Option output="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/TimerTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0"/>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0\x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64\include\c++\10.2.0\backward"/>
+					<Add directory="C:\msys64\mingw64\lib\clang\11.0.0\include"/>
+					<Add directory="C:/msys64/mingw64\x86_64-w64-mingw32\include"/>
+					<Add directory="C:/msys64/mingw64\include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 TimerTest/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Letter.cpp">
+			<Option target="TextTwist"/>
+		</Unit>
+		<Unit filename="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Letter.h">
+			<Option target="TextTwist"/>
+		</Unit>
+		<Unit filename="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/LetterNode.cpp">
+			<Option target="TextTwist"/>
+		</Unit>
+		<Unit filename="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/LetterNode.h">
+			<Option target="TextTwist"/>
+		</Unit>
+		<Unit filename="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Timer.cpp">
+			<Option target="TextTwist"/>
+			<Option target="TimerTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Timer.h">
+			<Option target="TextTwist"/>
+			<Option target="TimerTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/TimerTest.cpp">
+			<Option target="TimerTest"/>
+		</Unit>
+		<Unit filename="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/main.cpp">
+			<Option target="TextTwist"/>
+		</Unit>
+		<Unit filename="C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=C:/msys64/mingw64/bin/clang++.exe -G "CodeBlocks - MinGW Makefiles" "C:\Users\Jeffrey\Desktop\Personal Project Summer 2021\TextTwist"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/cmake-build-debug

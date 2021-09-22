@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Timer.h
+chrono
+-
+
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/TimerTest.cpp
+iostream
+-
+Timer.h
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Timer.h
+Windows.h
+C:/Users/Jeffrey/Desktop/Personal Project Summer 2021/TextTwist/Windows.h
+cstdlib
+-
+
